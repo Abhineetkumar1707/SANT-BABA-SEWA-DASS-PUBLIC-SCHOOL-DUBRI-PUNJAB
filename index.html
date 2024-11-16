@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SANT BABA SEWA DASS PUBLIC SCHOOL DUBRI PUNJAB</title>
+    <!-- Add Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        .donation-section {
+            display: flex;
+            flex-wrap: wrap;
+            /* Ensure proper alignment on smaller screens */
+            gap: 20px;
+            padding: 40px 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #f9f9f9;
+            border-bottom: 2px solid #d9534f;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo-container img {
+            height: 60px;
+            /* Adjust logo height */
+            width: auto;
+            /* Maintain aspect ratio */
+        }
+
+        .phone-number {
+            font-size: 18px;
+            font-weight: bold;
+            color: #d9534f;
+            text-align: right;
+        }
+
+        @media (max-width: 768px) {
+            .header {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .phone-number {
+                margin-top: 10px;
+            }
+        }
+
+        .donation-text {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .donation-text h2 {
+            color: #d9534f;
+            margin-bottom: 20px;
+        }
+
+        .donation-text p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        .donation-image {
+            flex: 1;
+            min-width: 280px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 250px;
+            /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); */
+        }
+
+        .donation-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 150px;
+            /* Optional: Add rounded corners to the image */
+        }
+
+        .card {
+            box-shadow: 0 4px 8px rgba(31, 216, 229, 0.5);
+            /* Dark box shadow */
+            transition: transform 0.3s, box-shadow 0.3s;
+            /* Smooth hover effect */
+        }
+
+        /* Footer */
+        .footer {
+            background: linear-gradient(135deg, #ff6f61, #d9534f);
+            /* Gradient background */
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+            box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.2);
+            /* Subtle shadow */
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+
+        .footer h2 {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .footer p {
+            font-size: 1.1rem;
+            margin: 0 0 10px;
+        }
+
+        .footer a {
+            color: #ffe9e6;
+            /* Light color for links */
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+            color: white;
+            /* On hover, turn white */
+        }
+
+        .footer-icons {
+            margin-top: 15px;
+        }
+
+        .footer-icons a {
+            display: inline-block;
+            margin: 0 10px;
+            color: white;
+            font-size: 1.5rem;
+            transition: transform 0.3s ease, color 0.3s ease;
+        }
+
+        .footer-icons a:hover {
+            transform: scale(1.2);
+            /* Grow icon on hover */
+            color: #ffe9e6;
+            /* Change color on hover */
+        }
+
+        h3 {
+            margin-left: 120px;
+            color: rgb(12, 77, 12);
+            /* font-size: 35px; */
+        }
+
+        h4 {
+            margin-left: 60px;
+            color: darkblue;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!-- Logo Section -->
+        <div class="logo-container">
+            <img src="4.jpg" alt="School Logo"> <!-- Replace 'logo.png' with your actual logo path -->
+        </div>
+
+        <!-- Phone Number Section -->
+        <div class="phone-number">
+            <a>📞 Contact Us : +91-7042240697 <!-- Replace with your phone number -->
+        </div>
+    </header>
+
+    <!-- Phone Number -->
+    <!-- <div class="phone">
+            <span>📞 7042240697</span>
+        </div> -->
+    </div>
+    <!-- logo -->
+    <!-- <div class="logo-container">
+        <img src="logo.png" alt="School Logo">  Replace 'logo.png' with the actual path to the uploaded logo
+    </div>  -->
+
+    <!--  -->
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="front.jpg" class="d-block w-100 h-50" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="7.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="11.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <br>
+    <h3>DONATION FOR </h3>
+    <h4>SANT BABA SEWA DAS SCHOOL, DUGRI PUNJAB</h4>
+    <!-- Donation Section -->
+    <div class="donation-section">
+        <div class="donation-text">
+            <h2>Make a Difference Through Your Generosity</h2>
+            <p>Donating is a powerful act of kindness that can transform lives and bring hope to those in need. When you
+                choose to donate, you’re not just giving money; you’re giving someone a chance at a better life. Your
+                contributions can help provide food for the hungry, education for children, shelter for the homeless,
+                and healthcare for the sick.</p>
+            <p>Every small effort counts. A single act of kindness can create a ripple effect that impacts countless
+                lives. Whether it's a small contribution or a large one, what truly matters is the intent to make a
+                difference.</p>
+            <p>Donations are not just financial; they can be in the form of your time, skills, or even spreading
+                awareness about a cause. Each gesture, no matter how small, has the potential to bring change.</p>
+        </div>
+        <br>
+        <div class="donation-image">
+            <img src="QR.jpg" alt="Donation Image"> <!-- Replace 'logo.png' with your image path -->
+        </div>
+    </div>
+    <br>
+    <br>
+    <!-- card -->
+    <div class="container mt-4">
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card" style="width: 100%;">
+                    <img src="1.jpg" class="card-img-top" alt="Card Image 1">
+                    <div class="card-body">
+                        <p class="card-text">
+                            Donation is the act of giving something voluntarily for a good cause.It can include money,
+                            goods, services.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card" style="width: 100%;">
+                    <img src="5e7c50b26920e.avif" class="card-img-top" alt="Card Image 2">
+                    <div class="card-body">
+                        <p class="card-text">
+                            Donations help bridge the gap between resources and the needs of the underprivileged.Acts of
+                            giving foster a sense of community and humanity.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card" style="width: 100%;">
+                    <img src="8.jpg" class="card-img-top" alt="Card Image 3">
+                    <div class="card-body">
+                        <p class="card-text">
+                            Donations play a crucial role in supporting charitable organizations.Donations help reduce
+                            poverty and inequality.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Another Card -->
+    <div class="container mt-4">
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card" style="width: 100%;">
+                    <img src="10.jpg" class="card-img-top" alt="Card Image 1">
+                    <div class="card-body">
+                        <p class="card-text">
+                            They support education for underprivileged children.Provide resources for healthcare.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card" style="width: 100%;">
+                    <img src="15.jpg" class="card-img-top" alt="Card Image 2">
+                    <div class="card-body">
+                        <p class="card-text">
+                            Foster innovation by funding creative projects and startups.To make a positive difference in
+                            the world.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card" style="width: 100%;">
+                    <img src="last.jpeg" class="card-img-top" alt="Card Image 3">
+                    <div class="card-body">
+                        <p class="card-text">
+                            Online donations via platforms and websites.Direct contributions to individuals in need.A
+                            donor-advised fund is similar.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>Thanks for Donating! ❤️</p>
+        <p>Contact us at <a href="abhineet@grkcgroup.com">abhineet@grkcgroup.com</a></p>
+        <p>&copy; 2024 Donation Project. All rights reserved.</p>
+    </footer>
+    <!-- Add Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
